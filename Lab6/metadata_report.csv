@@ -1,0 +1,7 @@
+filename,format,metadata_fields,suspected_field,encoding,risk_score,reason
+Activation.png,PNG,"srgb, gamma, dpi, exif, Make, Model, Software, create-date",EXIF,plain text,10,Found: VULN: Identify unpatched CVE-2024-XXXX in web gateway.
+Brain-Channel.png,PNG,"srgb, gamma, dpi, exif",EXIF,plain text,10,Found: LATERAL: Pivot to internal Domain Controller using Mimikatz.
+Brain.png,PNG,"srgb, gamma, dpi, Software",PNG,plain text,10,Found: RECON: Perform DNS harvesting and Subdomain enumeration.
+Chemicals.png,PNG,ImageDescription,PNG,plain text,10,Found: EXPLOIT: Deploy SQL Injection payload to bypass WAF.
+Dopamine.png,PNG,"srgb, gamma, dpi, xmp, XML:com.adobe.xmp",XMP,plain text,10,Found: PERSIST: Establish reverse shell via obfuscated cron job.
+Music.png,PNG,"srgb, gamma, dpi, Copyright, Make, Model, create-date, exif",EXIF,base64,0,Found: EXFIL: Tunnel compressed database dump via DNS Covert Channel.
